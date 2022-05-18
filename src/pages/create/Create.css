@@ -1,0 +1,65 @@
+.create {
+  color: #555;
+  max-width: 480px;
+  margin: 0px auto;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 10px;
+}
+.create .page-title {
+  margin: 10px auto 20px;
+}
+.create label span {
+  display: block;
+  margin: 20px 0 10px;
+}
+.create p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+}
+.create .ingredient {
+  font-style: italic;
+  opacity: .5;
+}
+.create p span:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.create textarea {
+  resize: none;
+  height: 140px;
+}
+.create .cooking-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.create .cooking-time span {
+  min-width: 77%;
+  margin: 0;
+}
+.cooking-time input {
+  text-align: right;
+}
+.create button {
+  display: block;
+  width: 100px;
+  font-size: 1em;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  background-color: #58249c;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 20px auto 0;
+  padding: 10px;
+}
+.create .ingredients {
+  display: flex;
+}
+
+.create .btn {
+  margin: 0 0 0 30px;
+}

@@ -1,0 +1,9 @@
+.search {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.search p {
+  color: #eee;
+  text-align: center;
+}
